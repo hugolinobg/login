@@ -1,0 +1,64 @@
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+    -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Cadastro</title>
+  </head>
+  <body>
+    <main class="page">
+      <div class="container">
+        <h1>Cadastro</h1>
+
+        <div class="container-wrapper">
+          <div class="login-wrapper">
+            <form class="login-form">
+              <div class="input-wrapper">
+                <label for="name">Nome</label>
+                <input type="text" id="name" placeholder="João Lima" required />
+              </div>
+
+              <div class="input-wrapper">
+                <label for="email">Endereço de e-mail</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="joaolima@exemplo.com.br"
+                  required
+                />
+              </div>
+
+              <div class="input-wrapper">
+                <label for="password">Sua senha</label>
+                <input type="password" id="password" required />
+              </div>
+
+              <div class="input-wrapper">
+                <label for="passwordConf">Confirmar a senha</label>
+                <input type="password" id="passwordConf" required />
+              </div>
+            </form>
+          </div>
+          <div class="button-wrapper">
+            <button id="register" type="submit">
+              Cadastrar
+            </button>
+            <span>Voltar para <a href="./index.html">Login</a></span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="./js/register.js"></script>
+  </body>
+</html>

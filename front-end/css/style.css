@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+.page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 2rem;
+}
+
+@font-face {
+  font-family: "Roboto-Regular", sans-serif;
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Light", sans-serif;
+  src: url(../fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family: "Roboto-Bold", sans-serif;
+  src: url(../fonts/Roboto-Bold.ttf);
+}
+
+body {
+  background-color: #2f2e41;
+  height: 100vh;
+  font-family: "Roboto-Regular", sans-serif;
+}
+
+.container {
+  display: grid;
+  gap: 4.2rem;
+}
+
+.container-wrapper {
+  display: grid;
+  gap: 4.2rem;
+}
+
+.login-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+  gap: 3.8rem;
+}
+
+.button-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: #fff;
+  font-size: 4.9rem;
+  line-height: 5.6rem;
+  text-align: center;
+  font-family: "Roboto-Bold", sans-serif;
+}
+
+div img {
+  height: 35rem;
+}
+
+form {
+  background: #fafafc;
+  min-height: 30rem;
+  min-width: 35rem;
+  border-radius: 0.8rem;
+  padding: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  justify-content: space-evenly;
+  font-family: "Roboto-Light", sans-serif;
+}
+
+.input-wrapper input {
+  display: flex;
+  flex-direction: column;
+  font-weight: 100;
+  width: 100%;
+  background: #fafafc;
+  border-radius: 0.8rem;
+  height: 4.6rem;
+  padding: 0 2.4rem;
+  font-size: 1.4rem;
+  line-height: 2.6rem;
+  color: #615f66;
+}
+
+.input-wrapper label {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: #4e4958;
+  margin-bottom: 0.8rem;
+}
+
+input:invalid {
+  border: 0.1rem solid #ff1010;
+}
+
+span,
+a {
+  color: #fff;
+  font-weight: 100;
+  line-height: 2.6rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+div button {
+  background-color: #ff0000;
+  color: #fff;
+  height: 4.7rem;
+  width: 40%;
+  border: 0;
+  border-radius: 0.8rem;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2.6rem;
+  font-family: "Roboto-Bold", sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+
+button:hover {
+  background-color: #312e81;
+}
