@@ -31,6 +31,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - express
 - express-session
 - cors
+- nodemon
 - Git
 - Github
 
